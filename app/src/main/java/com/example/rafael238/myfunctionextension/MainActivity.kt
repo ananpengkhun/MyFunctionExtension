@@ -8,5 +8,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        plus()
+
     }
+    fun plus()  = 5+5
 }
