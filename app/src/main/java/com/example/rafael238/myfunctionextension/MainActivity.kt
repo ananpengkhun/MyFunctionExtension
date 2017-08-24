@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        plus()
-        minus()
+//        plus()
+//        minus()
 
 
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         return sdf.format(this)
     }
 
-    private fun minus() = 5-5
-
-    fun plus()  = 5+5
+//    private fun minus() = 5-5
+//
+//    fun plus()  = 5+5
 }
