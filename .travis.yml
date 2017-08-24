@@ -27,5 +27,4 @@ cache:
     - $HOME/.android/build-cacåhe
 
 script:
-  - android-wait-for-emulator
   - ./gradlew test
