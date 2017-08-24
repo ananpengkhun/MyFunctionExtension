@@ -12,12 +12,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        plus()
-//        minus()
+        val date2 = Date()
+        date2.date = 10
+        date2.month = 8
+        date2.year = 2017
+
+        date2.format()
 
 
-
-//        tv_date.text = date.format()
     }
 
     fun Date.format() : String{
@@ -25,7 +27,4 @@ class MainActivity : AppCompatActivity() {
         return sdf.format(this)
     }
 
-//    private fun minus() = 5-5
-//
-//    fun plus()  = 5+5
 }
