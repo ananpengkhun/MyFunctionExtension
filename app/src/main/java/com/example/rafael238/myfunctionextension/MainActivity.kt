@@ -27,4 +27,14 @@ class MainActivity : AppCompatActivity() {
         return sdf.format(this)
     }
 
+    fun Date.format2() : String{
+        val sdf = SimpleDateFormat("yyyy-M-dd")
+        return sdf.format(this)
+    }
+
+    fun Date.format3() : String{
+        val sdf = SimpleDateFormat("yyyy-MM-d")
+        return sdf.format(this)
+    }
+
 }
